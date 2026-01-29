@@ -7,6 +7,7 @@ defmodule AshSqlite.Test.Domain do
   use Ash.Domain
 
   resources do
+    resource(AshSqlite.Test.Device)
     resource(AshSqlite.Test.Post)
     resource(AshSqlite.Test.Comment)
     resource(AshSqlite.Test.IntegerPost)
